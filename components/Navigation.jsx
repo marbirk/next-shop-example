@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { IoCart } from "react-icons/io5";
+import { Badge } from "react-bootstrap";
 
 export default function Navigation() {
   return (
@@ -11,6 +12,9 @@ export default function Navigation() {
         </Link>
         <Link href="/cart">
           <IoCart className="text-light fs-4" />
+          <Badge pill bg="success">
+            2
+          </Badge>
         </Link>
       </div>
     </div>
