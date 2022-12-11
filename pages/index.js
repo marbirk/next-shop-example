@@ -3,5 +3,5 @@ export default function Home() {
     <div>
       <h1>Guitars</h1>
     </div>
-  )
+  );
 }

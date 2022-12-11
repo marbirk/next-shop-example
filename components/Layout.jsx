@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Navigation from './Navigation'
-import Footer from './Footer'
+import Head from "next/head";
+import Navigation from "./Navigation";
+import Footer from "./Footer";
 
-export default function Layout({children}) {
+export default function Layout({ children }) {
   return (
     <div>
       <Head>
@@ -14,5 +14,5 @@ export default function Layout({children}) {
       {children}
       <Footer />
     </div>
-  )
+  );
 }
